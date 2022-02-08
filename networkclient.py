@@ -1,3 +1,5 @@
+# source: https://www.techwithtim.net/tutorials/python-online-game-tutorial/sending-receiving-information/
+
 import socket
 OFFLINE_ID = -1
 SERVER = "127.0.0.1"
