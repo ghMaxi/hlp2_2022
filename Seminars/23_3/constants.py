@@ -1,0 +1,9 @@
+server_address = ("192.168.9.97", 5557)
+width = 800
+height = 600
+box_size = 20
+update_request = b'update'
+buffer_size = 2048
+white = 255, 255, 255
+black = 0, 0, 0
+my_color = 234, 129, 37
