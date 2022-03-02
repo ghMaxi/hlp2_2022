@@ -1,0 +1,9 @@
+server_address = ("127.0.0.1", 5000)
+width = 800
+height = 600
+box_size = 20
+buffer_size = 2048
+update_bytes = b'update'
+white = 255, 255, 255
+bg_color = 20, 20, 20
+green = 0, 255, 0
