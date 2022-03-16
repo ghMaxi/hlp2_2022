@@ -37,4 +37,15 @@ if db_is_not_okay():
     remake_db()
 
 
-print(query("SELECT name FROM sqlite_master").fetchall())
+def test_add_category():
+    from categories import Category
+    Category.print_table(conn)
+    category1 = Category("Бытовые приборы")
+    category2 = Category("Тостеры", category1)
+    category1.write_to(conn)
+    category2.write_to(conn)
+    Category.print_table(conn)
+
+
+if __name__ == "__main__":
+    test_add_category()
